@@ -17,6 +17,7 @@ O que foi feito
 
 Tecnologias que serão vistas:
 - JavaScript (ES6+)
+- Node.js
 - HTML5, CSS3
 - React
 - Bootstrap
