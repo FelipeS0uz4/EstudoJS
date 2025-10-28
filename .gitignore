@@ -2,3 +2,6 @@ teste.js
 Exercicios__Javascript.pdf
 Exercicios_de_Programacao.pdf
 Exercicios_de_Programao_Resolucao.pdf
+node_modules
+package-lock.json
+package.json
