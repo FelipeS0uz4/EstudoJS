@@ -1,0 +1,15 @@
+// É uma promessa ao codigo 
+
+const falarDepoisDe = (segundos, frase ) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(frase)
+        }, segundos * 1000);
+    });
+};
+
+falarDepoisDe(2, 'Que legal!').then((frase, abc) => {
+    console.log(abc)
+    return frase.concat('?!?')})
+    .then(outraFrase => console.log(outraFrase))
+    .catch(e => console.log(e))
